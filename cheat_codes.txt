@@ -1,0 +1,3 @@
+axs_msr = btf.parse(3,skipfooter=11)
+
+remove spaces from start and end of string python pandas

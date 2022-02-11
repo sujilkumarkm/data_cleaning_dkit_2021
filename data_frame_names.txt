@@ -1,0 +1,67 @@
+df
+
+axs_msr
+
+axs_msr2
+
+wng_pmt
+
+wld_wng_ax1 **
+
+
+wld_wng_ax2 **
+
+
+ldm_dtl **
+
+out_anl_brd **
+
+out_anl_wld **
+
+merge_second_main = merge_second_three = pd.merge(merge_second_one,
+                 merge_second_four,
+                 on=['id','sex','Genus','Species','sub-species','area','ellipse axe 1 length','max axe 1 length','deviation max axe 1 from center'
+                    ,'deviation max axe 2 from center','axe 1 Moment 2','axe 1 Moment 3','axe 1 Moment 4','std axe 1 Moment 2','std axe 1 Moment 3','std axe 1 Moment 4','Perimeter','Tribe',
+                    'doresal/ventral','Anterior/Posterior','left/right','sub/Family','ellipse axe 2 length','max axe 2 length','deviation max axe 2 from center',
+                    ], 
+                 how='left')
+
+
+
+  sub/Family_x                     443 non-null    object  
+ 21  ellipse axe 2 length_x           443 non-null    float64 
+ 22  max axe 2 length_x               443 non-null    float64 
+ 23  deviation max axe 2 from center  443 non-null    float64 
+ 24  axe 2 Moment 2_x                 443 non-null    float64 
+ 25  axe 2 Moment 3_x                 443 non-null    float64 
+ 26  axe 2 Moment 4_x                 443 non-null    float64 
+ 27  std axe 2 Moment 2_x             443 non-null    float64 
+ 28  std axe 2 Moment 3_x             443 non-null    float64 
+ 29  std axe 2 Moment 4_x             443 non-null    float64 
+ 30  sub/Family_y                     443 non-null    object  
+ 31  ellipse axe 2 length_y           443 non-null    float64 
+ 32  max axe 2 length_y               443 non-null    float64 
+ 33  axe 2 Moment 2_y                 443 non-null    float64 
+ 34  axe 2 Moment 3_y                 443 non-null    float64 
+ 35  axe 2 Moment 4_y                 443 non-null    float64 
+ 36  std axe 2 Moment 2_y             443 non-null    float64 
+ 37  std axe 2 Moment 3_y             443 non-null    float64 
+ 38  std axe 2 Moment 4_y
+
+
+
+merge_second_four = pd.merge(merge_second_one,
+                 ldm_dtl,
+                 on=['id','sex'], 
+                 how='left')
+
+merge_second_four.tail(5)
+
+
+
+
+
+
+
+
+main_data1[main_data1.columns[0]].count()

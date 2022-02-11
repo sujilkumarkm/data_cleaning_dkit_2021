@@ -1,0 +1,27 @@
+tab 1 - Experimental brood - Only 3 columns - No much similarity with the main data - No much similarity with the main data
+
+Tab 2 - axis measure 1 - total 13 columns - 175 entries - genotype , area , name , sex  - No much similarity with the main data
+
+tab 3 - Axis 2 measures - 168 entries - only 1 null value  - No much similarity with the main data
+
+tab 4 - wing parameter - 87 entries - name , name perimeter - 11 null value only - this data seems to be not able to fit into the study
+
+tab 5 - Wild wings, axis 1 - 2891 entries - only 3 null values sub species 51 null values also - Looks Good for study
+
+tab 6 - Wild wings, axis 2 - 435 entries Unnamed: 20 - only few 3,7 null values
+
+tab 7 - Landmark details - 85 entries - only 6 null values  - looks relevant data for study**
+
+tab 8 - Landmark coordinates - 1844 entries - 246 null value columns in total - looks relevant for study**
+
+tab 9 - Outline analysis -brood - 92 entries - 879 nulls in total - lots of unnamed columns as well - 87 columns looks strange
+
+tab - 10 - Outline analysis -wild - 377 entries - 88 columns strange a lot unnamed again - 705  null values present
+
+
+
+
+
+
+
+
